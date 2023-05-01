@@ -111,7 +111,7 @@ while rn:
         playerx = 736
 
     for i in range(no_of_alien):
-        if alieny[i] > 4  :
+        if alieny[i] > 400:
             for j in range(no_of_alien):
                 alieny[j] = 2000
             gameover(250, 250)
